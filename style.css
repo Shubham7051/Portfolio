@@ -26,6 +26,7 @@ body{
 
 }
 
+
 #nav_li:hover{
     border: 2px solid white;
     border-radius: 10px;
@@ -74,9 +75,12 @@ body{
     animation-duration: 2s;
     animation-iteration-count: infinite;
     position: relative;
+    
+
     text-shadow: 5px 5px white;
     filter: drop-shadow(-4px 4px 6px yellow)
 }
+
 
 @keyframes shubu {
     0%{top:0px; left: 0px;}
@@ -188,4 +192,127 @@ body{
     margin-left: 35px;
     text-decoration: none;
     color: white;
+}
+
+/* -----------Responsive------------ */
+
+@media only screen and (max-width: 600px){
+#nav{
+    width: 100%;
+    height: 45px;
+}
+
+.logo{
+        font-size: medium;
+        margin-right: 0px;
+        margin-left: -40px;
+    }
+
+#nav_li{
+    display: none;
+}
+
+#main{
+    display: block;
+}
+
+.img1{
+    width:300px;
+    height:400px;
+    margin-top: 85px;
+    margin-left: 25px;
+    animation-name: shubu;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    overflow-x: hidden;
+    
+
+    text-shadow: 5px 5px white;
+    filter: drop-shadow(-4px 4px 6px yellow)
+}
+
+
+@keyframes shubu {
+    0%{top:0px; left: 0px;}
+    50%{top:15px; left: 15px;}
+    100%{top:0px; left: 0px;}
+}
+
+.detail{
+    color: white;
+    margin-top: 45px;
+    margin-left: 10px;
+    font-size: 250%;
+}
+
+.detail1{
+    color: purple;
+    margin-top: -15px;
+    margin-left: 10px;
+    font-size: 150%;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    text-shadow:
+    2px 1px 1px red,
+    2px 2px 1px red;
+    animation-name: shubham;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    position: relative;
+    overflow-x: hidden;
+
+}
+
+@keyframes shubham{
+    0%{ top: 0px; left: 0px;}
+    50%{top: 0px; left: 80px;}
+    100%{top: 0px; left: 0px;}
+    /* 100%{top:0px; left: 0px;} */
+}
+
+.detail2{
+    color: white;
+    /* margin-top: 175px; */
+    margin-left: 10px;
+    font-size: 150%;
+    overflow-x: hidden;
+}
+
+.detail3{
+    color: white;
+    margin-top: 35px;
+    margin-left: 10px;
+    font-size: 250%;
+}
+
+.detail4{
+    color: white;
+    margin-top: 55px;
+    margin-left: 10px;
+    font-size: 120%;
+    overflow-x: hidden;
+}
+
+.detail5{
+    color: white;
+    margin-top: 55px;
+    margin-left: 10px;
+    font-size: 120%;
+    overflow-x: hidden;
+}
+
+#heading{
+    color:yellow;
+    font-size: 150%;
+}
+
+.social_media2{
+    margin-left: 5px;
+    margin: 8px;
+    text-decoration: none;
+    color: white;
+}
+body{
+    overflow-x: hidden;
+}
 }

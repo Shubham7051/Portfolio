@@ -237,9 +237,9 @@ body{
 
 
 @keyframes shubu {
-    0%{top:5px; left: 0px;}
-    50%{top:0px; left: 15px;}
-    100%{top:5px; left: 0px;}
+    0%{top:0px; left: 0px;}
+    50%{top:15px; left: 15px;}
+    100%{top:0px; left: 0px;}
 }
 
 .detail{

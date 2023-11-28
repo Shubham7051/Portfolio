@@ -1,11 +1,13 @@
 body{
     padding: 0%;
     margin: 0%;
-    background-color: rgb(55, 55, 101);
+    /* background-color: rgb(131, 183, 182); */
+    background-image:url("https://media0.giphy.com/media/elcAvTEXkG02d17sr7/200.webp?cid=ecf05e47w97pwyuos69u3h6v2f4gvk44ygt77hfgacqrzfa9&ep=v1_gifs_search&rid=200.webp&ct=g");
+    /* background-repeat: no-repeat; */
 }
 
 #nav{
-    background-color: black;
+    background-color: purple;
     color: white;
     position: fixed;
     display: flex;
@@ -72,8 +74,8 @@ body{
     animation-duration: 2s;
     animation-iteration-count: infinite;
     position: relative;
-    text-shadow: 5px 5px black;
-    filter: drop-shadow(15px 15px 15px black)
+    text-shadow: 5px 5px white;
+    filter: drop-shadow(-4px 4px 6px yellow)
 }
 
 @keyframes shubu {
@@ -132,8 +134,8 @@ body{
     margin-left: 10px;
     font-size: 300%;
     text-shadow:
-    2px 2px 2px black,
-    3px 3px 2px black;
+    2px 2px 2px purple,
+    3px 3px 2px purple;
 }
 .detail4{
     color: white;
@@ -141,11 +143,11 @@ body{
     margin-left: 10px;
     font-size: 200%;
     text-shadow:
-    2px 2px 2px black,
-    3px 3px 2px black;
+    2px 2px 2px purple,
+    3px 3px 2px purple;
 }
 #heading{
-    color:purple;
+    color:yellow;
 }
 
 .detail5{
@@ -154,8 +156,8 @@ body{
     margin-left: 10px;
     font-size: 200%;
     text-shadow:
-    2px 2px 2px black,
-    3px 3px 2px black;
+    2px 2px 2px purple,
+    3px 3px 2px purple;
 }
 
 #foot{
@@ -168,11 +170,12 @@ body{
 .last{
     color: white;
     text-shadow:
-    2px 2px 2px black,
-    3px 3px 2px black;
+    2px 2px 2px purple,
+    3px 3px 2px purple;
     font-size: 200%;
     text-align: center;
     justify-content: center;
+    border-top: 3px solid white;
 }
 .social_media1{
     display: flex;

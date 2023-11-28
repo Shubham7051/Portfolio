@@ -211,7 +211,7 @@ body{
         
     }
 
-.extra{
+li.extra{
     display: none;
 }
 
@@ -229,6 +229,7 @@ body{
     animation-iteration-count: infinite;
     position: relative;
     overflow-x: hidden;
+    z-index: -1;
     
 
     text-shadow: 5px 5px white;
@@ -263,6 +264,7 @@ body{
     animation-iteration-count: infinite;
     position: relative;
     overflow-x: hidden;
+    z-index: -1;
 
 }
 
@@ -326,11 +328,12 @@ body{
 #nav_li {
     margin-left: 30px;
     /* float: right; */
-    font-size: small;
+    font-size: smaller;
     font-weight: 10;
     text-decoration: none;
     color: white;
     overflow-y: hidden;
+    overflow-x: hidden;
 
     
 

@@ -315,4 +315,8 @@ body{
 body{
     overflow-x: hidden;
 }
+
+#nav{
+    overflow-x: hidden;
+}
 }

@@ -23,19 +23,27 @@ body{
     font-weight: 100;
     text-decoration: none;
     color: white;
+    /* position: fixed; */
+    border: 0.1px solid purple;
+    padding: 10px;
+
+    
 
 }
 
 
 #nav_li:hover{
-    border: 2px solid white;
+    border: 0.1px solid white;
     border-radius: 10px;
     /* margin: 1px; */
     position: relative;
     margin-top: -25px;
     padding: 10px;
     background-color: rgb(55, 55, 101);
-    transform: translate(1, -200px);
+    /* transform: translate(1, -200px); */
+    /* right: 13px; */
+    /* transform: scale(2.02); */
+    
 }
 
 #nav1{
@@ -75,10 +83,12 @@ body{
     animation-duration: 2s;
     animation-iteration-count: infinite;
     position: relative;
+    z-index: -1;
     
 
     text-shadow: 5px 5px white;
     filter: drop-shadow(-4px 4px 6px yellow)
+    
 }
 
 
@@ -113,6 +123,7 @@ body{
     animation-duration: 13s;
     animation-iteration-count: infinite;
     position: relative;
+    z-index: -1;
 
 }
 
@@ -192,6 +203,7 @@ body{
     margin-left: 35px;
     text-decoration: none;
     color: white;
+    /* border-radius: 15px; */
 }
 
 /* -----------Responsive------------ */
